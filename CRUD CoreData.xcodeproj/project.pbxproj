@@ -14,6 +14,11 @@
 		EC5EF5152A3C329000C53AA8 /* CRUD_CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF5132A3C329000C53AA8 /* CRUD_CoreData.xcdatamodeld */; };
 		EC5EF5172A3C329100C53AA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC5EF5162A3C329100C53AA8 /* Assets.xcassets */; };
 		EC5EF51A2A3C329100C53AA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC5EF5182A3C329100C53AA8 /* LaunchScreen.storyboard */; };
+		EC5EF5232A3C32F700C53AA8 /* Student+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF5212A3C32F700C53AA8 /* Student+CoreDataClass.swift */; };
+		EC5EF5242A3C32F700C53AA8 /* Student+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF5222A3C32F700C53AA8 /* Student+CoreDataProperties.swift */; };
+		EC5EF5262A3C48C400C53AA8 /* ShowDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF5252A3C48C400C53AA8 /* ShowDataVC.swift */; };
+		EC5EF5282A3C4E1400C53AA8 /* ShowDataTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF5272A3C4E1400C53AA8 /* ShowDataTBVC.swift */; };
+		EC5EF52C2A3C50CD00C53AA8 /* EditDeleteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC5EF52B2A3C50CD00C53AA8 /* EditDeleteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EC5EF5162A3C329100C53AA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EC5EF5192A3C329100C53AA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EC5EF51B2A3C329100C53AA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC5EF5212A3C32F700C53AA8 /* Student+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		EC5EF5222A3C32F700C53AA8 /* Student+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Student+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		EC5EF5252A3C48C400C53AA8 /* ShowDataVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataVC.swift; sourceTree = "<group>"; };
+		EC5EF5272A3C4E1400C53AA8 /* ShowDataTBVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowDataTBVC.swift; sourceTree = "<group>"; };
+		EC5EF52B2A3C50CD00C53AA8 /* EditDeleteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditDeleteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,8 @@
 		EC5EF5092A3C329000C53AA8 /* CRUD CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				EC5EF5212A3C32F700C53AA8 /* Student+CoreDataClass.swift */,
+				EC5EF5222A3C32F700C53AA8 /* Student+CoreDataProperties.swift */,
 				EC5EF50A2A3C329000C53AA8 /* AppDelegate.swift */,
 				EC5EF50C2A3C329000C53AA8 /* SceneDelegate.swift */,
 				EC5EF50E2A3C329000C53AA8 /* ViewController.swift */,
@@ -66,6 +78,9 @@
 				EC5EF5182A3C329100C53AA8 /* LaunchScreen.storyboard */,
 				EC5EF51B2A3C329100C53AA8 /* Info.plist */,
 				EC5EF5132A3C329000C53AA8 /* CRUD_CoreData.xcdatamodeld */,
+				EC5EF5252A3C48C400C53AA8 /* ShowDataVC.swift */,
+				EC5EF5272A3C4E1400C53AA8 /* ShowDataTBVC.swift */,
+				EC5EF52B2A3C50CD00C53AA8 /* EditDeleteVC.swift */,
 			);
 			path = "CRUD CoreData";
 			sourceTree = "<group>";
@@ -140,10 +155,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC5EF52C2A3C50CD00C53AA8 /* EditDeleteVC.swift in Sources */,
+				EC5EF5242A3C32F700C53AA8 /* Student+CoreDataProperties.swift in Sources */,
 				EC5EF50F2A3C329000C53AA8 /* ViewController.swift in Sources */,
 				EC5EF50B2A3C329000C53AA8 /* AppDelegate.swift in Sources */,
 				EC5EF5152A3C329000C53AA8 /* CRUD_CoreData.xcdatamodeld in Sources */,
 				EC5EF50D2A3C329000C53AA8 /* SceneDelegate.swift in Sources */,
+				EC5EF5262A3C48C400C53AA8 /* ShowDataVC.swift in Sources */,
+				EC5EF5232A3C32F700C53AA8 /* Student+CoreDataClass.swift in Sources */,
+				EC5EF5282A3C4E1400C53AA8 /* ShowDataTBVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
