@@ -21,6 +21,14 @@ class ViewController: UIViewController {
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         managedObjectContext = appDelegate.persistentContainer.viewContext
     }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
+        lblName.text = ""
+        lblAge.text = ""
+        
+        lblName.becomeFirstResponder()
+    }
 
     @IBAction func btnSave(_ sender: UIButton) {
         guard let name = lblName.text, !name.isEmpty else {
